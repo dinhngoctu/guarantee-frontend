@@ -10,6 +10,7 @@ import {RouterModule} from '@angular/router';
 import {SignInComponent} from './Auth/sign-in/sign-in.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatDialogModule, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material/dialog';
+import { ForgotPassComponent } from './Auth/forgot-pass/forgot-pass.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import {MatDialogModule, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material/
         FooterComponent,
         SignUpComponent,
         SignInComponent,
+        ForgotPassComponent,
     ],
     imports: [
         BrowserModule,

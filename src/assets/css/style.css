@@ -2801,7 +2801,7 @@ ul.menuTop li:hover ul {
     display: inline-block;
     background: #ddd;
     color: #fff;
-    padding: 3px 30px 3px;
+    padding: 5px 30px 5px;
     border: 0;
     border: 1px solid #ddd;
     transition: all 0.5s;

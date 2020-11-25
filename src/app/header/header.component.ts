@@ -18,4 +18,5 @@ export class HeaderComponent implements OnInit {
     openDialogSignIn(): void {
         this.authService.openDialog();
     }
+
 }
